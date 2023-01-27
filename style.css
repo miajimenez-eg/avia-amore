@@ -71,3 +71,8 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px){
+  .airplane-list-container {
+    flex-direction: column;
+  }
+}
