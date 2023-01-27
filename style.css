@@ -73,6 +73,32 @@ main > * {
 /* YOUR CODE HERE */
 @media screen and (max-width: 768px){
   .airplane-list-container {
+    
     flex-direction: column;
+    width: 80%;
+    margin-left: -1%;
+    align-items: center;
+    
   }
+  body {
+    font-family: 'architects daughter', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 231, 225);
+    height: 100vh;
+  }
+  header {
+    
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .airplane-card {
+    width: 90%;
+  }
+  h1 {
+    text-align: start;
+  }
+  
 }
